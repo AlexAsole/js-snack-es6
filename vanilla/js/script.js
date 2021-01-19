@@ -9,8 +9,8 @@ var bici = [
 ];
 var min = bici[0];
 for (var x = 1; x < bici.length; x++){
-    if (bici[x].peso < min.peso){
-      min = bici[x]
-    }
+  if (bici[x].peso < min.peso){
+    min = bici[x];
+  }
 }
 console.log(min)
