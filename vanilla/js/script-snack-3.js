@@ -4,14 +4,14 @@ function newArray(arr, min, max) {
   var newArray = [];
   for (var x = 0; x < arr.length; x++) {
     if ((x >= min) && (x <= max)) {
-      newArray.push(arr[x])
+      newArray.push(arr[x-1])
     }
   }
   return newArray;
 }
 
 var numArray = [1,2,3,4,5,6,7,8,9,10];
-var a = 5;
+var a = 4;
 var b = 8;
 
 console.log(newArray(numArray, a, b));
